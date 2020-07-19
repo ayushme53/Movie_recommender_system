@@ -1,14 +1,28 @@
-# Movie_recommender_system
-A machine learning movie recommendation system using collaborative filtering. 
+Project Made/Contributor = Ayush Mehra
 
-Project contributor: Ayush Mehra
-Algorithm used: Collaborative Filtering 
+Problem Statement - Movie Recommendation System.
 
-The data-set was taken from kaggle.com and the copy of the data set is present in the repo. 
+This project is based on collaborative filtering.
 
-The recommendation system recommends the movies which have a higher correlation with the movie 
-which you want to compare and the number of people has been set to 100 for comparison. 
+What is Collaborative Filtering?
 
-I have used Python's inbuilt numpy and panda's library to use the inbuilt functions. I have also used Python's matplotlib and seaborn to do a data-analysis. Python's panda dataframe has been used to clean data. I have used two movies "Return of the Jedi" and "Toy Story" to print all the movies which have similar correlation with it using inbuilt Python's library. The code has been throughly explained by comment lines at every step. 
+Collaborative filtering is a technique that can filter out items that a user might like on the basis of reactions by similar users. It works by searching a large group of people and finding a smaller set of users with tastes similar to a particular user.
+
+This is a machine learning movie recommendation system model using collaborative filtering.
+
+Data Set - The data set is present in the repository and was taken from Kaggle.
+
+The Recommendation system recommends the movies that have a high correlation with the movie that we want to compare with and as a large set of people are present in the dataset so I have taken 100 people for the comparison.
+
+The Python library used is NumPy’s and panda’s to use the inbuilt functions present in them. For the Data to be analyzed Pythion’s matplotlib and seaborn library are used. For the cleaning of data, the panda data frame is been used. For this particular program, I have used two movies -
+1 - “Toy Story”
+2 - “Return of the Jedi”
+
+Now our recommendation system gets all or print all the movies that have a similar correlation with these two movies.
+
+(The code is commented for better understanding)
+
+
+ 
 
 
